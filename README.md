@@ -28,7 +28,18 @@ The system first translates non-English text to English before passing it to the
 - **Outputs:**
   - Mood Classification: e.g., "Today you're feeling sadness"
   - Message: e.g., "It's okay to feel down sometimes, but remember that better days are ahead."
+
+![Alt text](MoodTracker-GradioInterface.png)
+Mood Tracker Main Gradio Interface - Demonstration of Inputs and Outputs
+
+
 - **Mood Analysis:** When clicking the "Generate" button, a bar chart representing the distribution of moods will be displayed along with a table of the user’s data.
+
+![Alt text](BarChar-GradioInterface.png)
+This bar chart illustrates the distribution of moods recorded by the user. Each bar represents the frequency of a specific mood.
+
+![Alt text](DataFrame-GradioInterface.png)
+The table displays the user's mood entries, including the date, language, text, and mood of each journal entry.
 
 ## Authors
 - **[Shahad Albalawi]**
