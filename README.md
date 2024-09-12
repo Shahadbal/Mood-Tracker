@@ -20,7 +20,26 @@ The system first translates non-English text to English before passing it to the
 
 ## Instructions to Run the Code
 
-### Expected Output from Gradio Interface
+1. **Prerequisites**: Install the required dependencies:
+   - Gradio
+   - openai
+   - python-dotenv
+   - transformers
+   - pandas
+   - matplotlib
+     
+3. **Set Up OpenAI API Key**
+4. **Run the Application**: Execute the Python script. The Gradio interface will launch automatically in your browser
+
+5. **Using the Application**:
+  - Enter the date (YYYY-MM-DD format).
+  - Select the input language from the dropdown menu (English, French, Arabic, Spanish, German, Chinese, Hindi).
+  - Describe what happened today in the textbox.
+  - The application will classify your mood, display the result, and generate a personalized message.
+
+5. **View Mood Trends**: After logging some entries, click the "Generate" button to view a bar chart that visualizes the frequency of different moods over time.
+
+## Expected Output from Gradio Interface
 - **Input:**
   - Date: e.g., "2024-09-12"
   - Language: e.g., "French"
