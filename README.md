@@ -29,3 +29,7 @@ The system first translates non-English text to English before passing it to the
   - Mood Classification: e.g., "Today you're feeling sadness"
   - Message: e.g., "It's okay to feel down sometimes, but remember that better days are ahead."
 - **Mood Analysis:** When clicking the "Generate" button, a bar chart representing the distribution of moods will be displayed along with a table of the user’s data.
+
+## Authors
+- **[Shahad Albalawi]**
+- **[Nojood Alnahdi]**
