@@ -27,17 +27,14 @@ The system first translates non-English text to English before passing it to the
    - transformers
    - pandas
    - matplotlib
-     
 3. **Set Up OpenAI API Key**
 4. **Run the Application**: Execute the Python script. The Gradio interface will launch automatically in your browser
-
-5. **Using the Application**:
-  - Enter the date (YYYY-MM-DD format).
-  - Select the input language from the dropdown menu (English, French, Arabic, Spanish, German, Chinese, Hindi).
-  - Describe what happened today in the textbox.
-  - The application will classify your mood, display the result, and generate a personalized message.
-
-5. **View Mood Trends**: After logging some entries, click the "Generate" button to view a bar chart that visualizes the frequency of different moods over time.
+5. **Using the Application**: Install the required dependencies:
+   - Enter the date (YYYY-MM-DD format).
+   - Select the input language from the dropdown menu (English, French, Arabic, Spanish, German, Chinese, Hindi).
+   - Describe what happened today in the textbox.
+   - The application will classify your mood, display the result, and generate a personalized message.
+6. **View Mood Trends**: After logging some entries, click the "Generate" button to view a bar chart that visualizes the frequency of different moods over time.
 
 ## Expected Output from Gradio Interface
 - **Input:**
@@ -48,16 +45,16 @@ The system first translates non-English text to English before passing it to the
   - Mood Classification: e.g., "Today you're feeling sadness"
   - Message: e.g., "It's okay to feel down sometimes, but remember that better days are ahead."
 
-![Alt text](MoodTracker-GradioInterface.png)
+![Alt text](images/MoodTracker-GradioInterface.png)
 Mood Tracker Main Gradio Interface - Demonstration of Inputs and Outputs
 
 
 - **Mood Analysis:** When clicking the "Generate" button, a bar chart representing the distribution of moods will be displayed along with a table of the user’s data.
 
-![Alt text](BarChar-GradioInterface.png)
+![Alt text](images/BarChar-GradioInterface.png)
 This bar chart illustrates the distribution of moods recorded by the user. Each bar represents the frequency of a specific mood.
 
-![Alt text](DataFrame-GradioInterface.png)
+![Alt text](images/DataFrame-GradioInterface.png)
 The table displays the user's mood entries, including the date, language, text, and mood of each journal entry.
 
 ## Authors
