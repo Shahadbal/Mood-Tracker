@@ -65,7 +65,7 @@ The table displays the user's mood entries, including the date, language, text, 
 ## Links
 [Mood Tracker Space](https://huggingface.co/MoodTracker-team)
 
-[Watch the video](https://drive.google.com/file/d/12bzJURBBRIHRPxnEaVSTpdfNv55y-l7x/view?usp=sharing)
+[Watch the video](https://drive.google.com/file/d/1kn9-SZzoE44kIwY_P85VZPZI2aVgHbb6/view?usp=sharing)
 
 ## Authors
 - **[Shahad Albalawi]**
