@@ -62,6 +62,8 @@ This bar chart illustrates the distribution of moods recorded by the user. Each 
 ![Alt text](images/DataFrame-GradioInterface.png)
 The table displays the user's mood entries, including the date, language, text, and mood of each journal entry.
 
+## Link to Hugging Face Space
+[Mood Tracker Space](https://huggingface.co/MoodTracker-team)
 ## Authors
 - **[Shahad Albalawi]**
 - **[Nojood Alnahdi]**
