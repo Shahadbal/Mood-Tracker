@@ -4,11 +4,16 @@
 This project is a mood tracker application that allows users to log their daily experiences in various languages, classify their mood based on their text entries, and receive motivational messages. The project utilizes a combination of [Hugging Face pipelines](https://huggingface.co/models), [OpenAI GPT-3.5-turbo API](https://beta.openai.com/docs/models/gpt-3-5), and [Gradio](https://gradio.app/) for a seamless and interactive user interface.
 
 ## Main Files and Their Functions
-- **Classifier**: This component uses the `SamLowe/roberta-base-go_emotions` model from Hugging Face's text-classification pipeline to classify the user’s input into various emotional categories. [Hugging Face Model Details](https://huggingface.co/SamLowe/roberta-base-go_emotions)
-- **Translator**: To handle non-English input, the `facebook/nllb-200-distilled-600M` model from Hugging Face's translation pipeline is used to translate the user’s text to English before classification. [Hugging Face Translation Model](https://huggingface.co/facebook/nllb-200-distilled-600M)
-- **OpenAI GPT-3.5 API**: After mood classification, the OpenAI API generates a message based on the detected mood, offering personalized feedback or advice. [OpenAI GPT-3.5-turbo API Documentation](https://beta.openai.com/docs/models/gpt-3-5)
-- **Gradio Interface**: This provides the user interface to input the date, language, and journal entry. It displays the classified mood and generates a motivational message. [Gradio Documentation](https://gradio.app/docs/)
-- **Data Storage and Analysis**: User entries (date, text, mood) are stored in a pandas DataFrame for analysis. A function to visualize mood trends over time is provided, generating a plot that displays the frequency of moods over the week.
+1. **`Mood-Tracker-Application.ipynb`**: This comprehensive file includes all key functionalities:
+   - **Mood Classifier**: Uses the `SamLowe/roberta-base-go_emotions` model from Hugging Face's text-classification pipeline to categorize the user’s input into emotional labels. [Model details](https://huggingface.co/SamLowe/roberta-base-go_emotions)
+   - **Translator**: Handles non-English input using the `facebook/nllb-200-distilled-600M` model from Hugging Face's translation pipeline. It translates text into English before classification. [Translation model](https://huggingface.co/facebook/nllb-200-distilled-600M)
+   - **OpenAI GPT-3.5 API**: After mood classification, the OpenAI API generates personalized motivational feedback based on the detected mood. [API Documentation](https://beta.openai.com/docs/models/gpt-3-5)
+   - **Gradio Interface**: Provides an easy-to-use interface for users to input the date, language, and journal entry, then displays the classified mood and a motivational message. [Gradio Documentation](https://gradio.app/docs/)
+   - **Data Storage & Analysis**: Stores user entries (date, text, mood) in a pandas DataFrame. Includes a function that visualizes mood trends over time by generating a bar chart of mood frequencies.
+
+2. **`Mood-Tracker-Pipeline.ipynb`**: Focuses on Hugging Face pipelines, the OpenAI API while also involving data storage/analysis.
+
+3. **`Mood-Tracker-Gradio.ipynb`**: Emphasizes the Gradio components while also involving data storage and analysis.
 
 ## Hugging Face Text-to-Text Pipeline
 
